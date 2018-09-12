@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	
+}
+
+@font-face {
+    font-family: 'frutiger_75_blackregular';
+    src: url('fonts/frutiger/frutiger-black-webfont.woff2') format('woff2'),
+         url(../fonts/frutiger-black-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'frutiger_67_condensedbold';
+	src:url(../fonts/frutiger/frutiger-boldcn-webfont.woff), 
+	url(../fonts/frutiger-boldcn-webfont.woff2);
+ 
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'frutiger_45_lightregular';
+	src:url(../fonts/oficial/soberanasans-light-webfont.woff2),
+	url(../fonts/soberanasans-light-webfont.woff);
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'frutiger_55roman';
+    src: url('fonts/oficial/frutiger-roman-webfont.woff2') format('woff2'),
+         url(../fonts/frutiger-roman-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.rd{
+	width:100%;
+	
+}
+body{
+	background-color:#f1f2f1;}
+*, html, php{
+	margin:0px;
+	padding:0px;
+	}
+	a{
+		text-decoration:none;}
+#home{
+	background-color:#000000;
+	padding: 50px;
+	margin: 0;
+	
+
+}
+div#resul_busqueda{
+	padding: 50px;
+	display: inline;
+	width: 100%;
+
+	
+}
+#aeropuertos{
+	display: inline;
+	font-family: 'frutiger_45_lightregular';
+	font-size: 24px;
+	
+}
+#nom_aeropuerto{
+	padding-left: 15px;
+	display: inline;
+	font-family: 'frutiger_67_condensedbold';
+	font-size: 30px;
+	color: #63a70a;
+}
+#lleg{	
+	font-family:'frutiger_67_condensedbold';
+	font-size: 18px;
+	color:#63a70a;
+}
+#sali{	
+	font-family:'frutiger_67_condensedbold';
+	font-size: 18px;
+	color:#373C3F;
+}
+tbody#tab{
+	width:80%;
+	padding: 10px;
+	
+}
+#tit_tabla{
+	background-color:#63a70a;
+	font-family: 'frutiger_45_lightregular';
+	color:white;
+}
+	
+.center{
+	text-align:center;}		
+		
+
+
+		#article{
+	
+			font-family: 'frutiger_45_lightregular';
+			
+		}
+ .logoRedes{
+	width: 30%;
+	display: inline-block;
+	vertical-align:middle;
+	
+}
+	span.Anom{
+		font-family:'frutiger_67_condensedbold',Helvetica Neue;
+		font-size:70px;
+		} 	
+	.geek{
+		color:#63a70a;
+		color:white;
+		font-family:'frutiger_45_lightregular', Helvetica Neue;
+		font-size:29px;
+		text-align:left;
+		/*background:url(img/REDASA.png) no-repeat;*/
+		display:block;
+		height:87px;
+		width:100%;		
+		margin:0px auto;
+	}
+	.geek1{
+		text-align:center;}	
+	.geek1 img{
+		text-align:center;
+		width:55%;
+		}
+
+#selecc_ae{
+font-family: 'frutiger_67_condensedbold', Helvetica, Verdana;
+font-size: 14px;	
+}
+#busqueda{
+	text-decoration: none;
+	color: white;
+}
+	input[type="submit"]{
+		text-decoration: none;
+		width: 250px;
+	    font-family: "frutiger_45_lightregular", Helvetica, Verdana;
+		background:grey;
+		border-radius:0.2em;
+		color:white;
+		font-size:.8em;
+		padding:.8em;
+	}
+	input[type="submit"]:hover{
+	    cursor:pointer;		
+		color:gray;
+		background:black;
+
+	}
+	
+	input[type="reset"]{
+		text-decoration: none;
+		width: 250px;
+	    font-family: "frutiger_45_lightregular", Helvetica, Verdana;
+		background:grey;
+		border-radius:0.2em;
+		color:white;
+		font-size:.8em;
+		padding:.8em;
+	}
+	input[type="reset"]:hover{
+	    cursor:pointer;		
+		color:gray;
+		background:black;
+
+	}
+		
+select{
+	width:400px;
+	  font-family: "frutiger_45_lightregular", Helvetica, Verdana;
+	font-size: 14px;
+}
+
+/*----FOOTER----*/
+a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.foot{
+	text-decoration:none;
+	
+	position:fixed;
+	bottom:0;
+	 background-color:#3E3F40;
+ font-family: 'frutiger_45_lightregular';
+     color:white;
+        font-size:15px;
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	vertical-align:bottom;
+	align-content:flex-end;
+
+	border:0;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+53,000000+100&0+0,1+54,1+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.98) 53%, rgba(0,0,0,1) 54%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.98) 53%,rgba(0,0,0,1) 54%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.98) 53%,rgba(0,0,0,1) 54%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+
+	}
+	footer div a{
+		font-family: 'frutiger_45_lightregular';
+		color:#57D819;}
+#footer-img .tel{
+	font-family: 'frutiger_45_lightregular';
+}
+	.foot1{
+	
+	
+	bottom:0;
+	 background-color:#3E3F40;
+ font-family: 'frutiger_45_lightregular';
+     color:white;
+        font-size:15px;
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	vertical-align:bottom;
+	align-content:flex-end;
+
+	border:0;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+11,373c3f+35,373c3f+100&0+0,1+11,1+35,1+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,
+	0,1) 11%, rgba(55,60,63,1) 35%, rgba(55,60,63,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 11%,rgba(55,60,63,1) 35%,rgba(55,60,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 11%,rgba(55,60,63,1) 35%,rgba(55,60,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#373c3f',GradientType=0 ); /* IE6-9 */
+
+
+	}
+footer h7{
+	color:#57D819;
+}
+ footer{
+	 padding:1em;
+}
+footer a:hover{
+	border-radius:0 0.5em 0 0.5em;
+	/*color:#43B1E0;*/
+	color:#57D819;
+		transition:all 0.5s ease-out;
+	/*copiamos 4 veces el codigo para el efecto lo leas los diferentes navegadores*/
+	-ms-transition:all 0.5s ease-out; /*internet explorer*/
+    -moz-transition:all 0.5s ease-out; /*mozila*/
+    -o-transition:all 0.5s ease-out; /*opera*/
+    -webkit-transition:all 0.5s ease-out; /*Safari y Chrome*/
+}
+/*footer p{
+	margin-bottom:1em;
+}*/
+footer div{
+	
+	margin:0 auto;
+	padding:2em;
+	display: inline-block;
+	vertical-align:middle;
+	text-align: center;
+	padding-bottom:.5em;;
+
+}
+footer#footer-img{
+
+	margin:0 auto;
+	padding:2em;
+	display: inline-block;
+	vertical-align:top;
+	text-align: center;
+}
+.container{
+  border-radius: .5em;
+	width:650px;
+	height:600px;
+	margin:auto;
+	padding:20px;
+	background-color:rgba(255,255,255,0.8);
+	opacity:.8;
+	border:solid 1px #ccc;
+}
+.center{
+	text-align:center;
+}
+
+
+input[type="text"], input[type="password"]{
+  border-radius: .4em;
+  color:grey;
+  font-size: 1em;
+  padding: .50em;
+  width: 120%;
+}
+
+{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+
+form{
+  margin: auto;     /*margen autom */
+  width: 50%;
+  max-width: 500px;   /*al aumentar la ventana solo sera de 500*/
+  background: #F3F3F3;
+  padding: 30px;         /*Establece el margen alrederdor de los componentes*/
+  border: 1px solid rgba(0,0,0,0.2);  /*Establece el color del formulario*/
+}
+
+h2{
+  text-align: center;
+  margin-botton:  20px;
+  color: rgba(0,0,0,0.5);
+}
+input{
+  display: block;  /*baja el boton*/
+  padding: 18 px; /*aumenta el tama�o de los componentes */
+  width: 100%;  /*los componentes formaran el ancho de 100%*/
+  margin: 38px 0;  /*separar los componentes*/
+  font-size: 20px; /*aumenta tama�o*/
+}
+input[type="submit"] {       /*seleccionamos el tipo de boton*/
+  background: grey;/*establece colores del boton al inicio*/  
+  border:0; /*quita el border*/
+  color:white;   /*Establece color de la letra del boton*/
+  opacity: 0.8;
+  cursor:pointer;   /*selecciona cuando se pase el cursor*/
+  border-radius: 80px; /*para que el boton sea redondo*/
+  margin-botton: 0;  /*finalmente le quitamos el margen*/
+}
+input[type="reset"] {       /*seleccionamos el tipo de boton*/
+  background: grey;/*establece colores del boton al inicio*/  
+  border:0; /*quita el border*/
+  color:white;   /*Establece color de la letra del boton*/
+  opacity: 0.8;
+  cursor:pointer;   /*selecciona cuando se pase el cursor*/
+  border-radius: 20px; /*para que el boton sea redondo*/
+  margin-botton: 0;  /*finalmente le quitamos el margen*/
+}
+
+
+ input[type="submit"]:hover {    /*Encargado de cambiar la opacidad del boton cuando se pase el cursor*/
+   opacity: 1;
+ }
+
+input[type="submit"]:active{    /*Encargado de activar el boton acuando presionemos click*/
+  transform: scale(0.95);
+}
+
+input[type="reset"]:hover {    /*Encargado de cambiar la opacidad del boton cuando se pase el cursor*/
+   opacity: 1;
+ }
+
+input[type="reset"]:active{    /*Encargado de activar el boton acuando presionemos click*/
+  transform: scale(0.95);
+}
+@media (max-width:768px){    /*Permite que el formulario se haga mas peque�o*/
+  form{
+    width: 75%;
+  }
+  @media (max-width:780px){ /*dependiendo los pixeles*/
+    form{
+      width: 95%;
+    }
+}
